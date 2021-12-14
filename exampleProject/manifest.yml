@@ -1,0 +1,11 @@
+---
+# Default Manifest with single input for sample
+applications:
+- name: exampleProject
+  memory: 768M
+  path: srv/target/exampleProject.jar
+  random-route: true
+  services:
+    - tempMesh
+
+  
